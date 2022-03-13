@@ -1,0 +1,683 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.header{
+    min-height: 100vh;
+    width: 100%;
+    background-image: linear-
+    gradient(rgba(4,9,30,0.7),rgba(4,9,30,Q.7)),url(Background.png);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+
+nav{
+    display: flex;
+    padding: 2% 6%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav img{
+    width: 150px;
+}
+.nav-links{
+    flex: 1;
+    text-align: right;
+}
+.nav-links ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 12px 35px;
+    font-family: "Verdana", "sans-serif";
+    position: relative;
+}
+
+.nav-links ul li a{
+    color: black;
+    text-decoration: none;
+    font-size: 13px;
+}
+
+.nav-links ul li::after{
+    content: '';
+    width: 0%;
+    height: 2px;
+    background: blue;
+    display: block;
+    margin: auto;
+    transition: 0.5s;
+}
+
+.nav-links ul li:hover::after{
+    width: 100%;
+}
+
+.text-box{
+    width: 90%;
+    color: rgb(33, 47, 177);
+    position: absolute;
+    top: 50%;
+    left: 9%;
+    transform: translate(-50%,-50%);
+    text-align: left;
+    font-family: "Verdana", "sans-serif";
+}
+
+.text-box1{
+    width: 90%;
+    color: rgb(78, 71, 71);
+    position: absolute;
+    top: 65%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: left;
+    font-family: "Verdana", "sans-serif";
+}
+
+.DrVaccine{
+    position: absolute;
+    right: 5%;
+    top: 20%;
+}
+
+.BestProtection{
+    width: 90%;
+    color: rgb(78, 71, 71);
+    position: absolute;
+    top: 85%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: left;
+    font-family: "Verdana", "sans-serif";
+}
+
+.SelectedVaccines{
+    width: 90%;
+    color: rgb(78, 71, 71);
+    position: absolute;
+    top: 85%;
+    left: 70%;
+    transform: translate(-50%,-50%);
+    text-align: left;
+    font-family: "Verdana", "sans-serif";
+}
+
+.BestProtectionImg{
+    position: absolute;
+    right: 94%;
+    top: 82%;
+}
+
+.SelectedVaccinesImg{
+    position: absolute;
+    right: 75%;
+    top: 82%;
+}
+
+.Clock{
+    width: 90%;
+    color: rgb(78, 71, 71);
+    position: absolute;
+    top: 120%;
+    left: 22%;
+    transform: translate(-50%,-50%);
+    text-align: left;
+    font-family: "Verdana", "sans-serif";
+}
+
+.ClockImg{
+    position: absolute;
+    right: 90%;
+    top: 117%;
+}
+
+.Location{
+    width: 90%;
+    color: rgb(78, 71, 71);
+    position: absolute;
+    top: 140%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: left;
+    font-family: "Verdana", "sans-serif";
+}
+
+.LocationImg{
+    position: absolute;
+    right: 95%;
+    top: 137%;
+}
+
+.Date{
+    width: 90%;
+    color: rgb(78, 71, 71);
+    position: absolute;
+    top: 140%;
+    left: 63%;
+    transform: translate(-50%,-50%);
+    text-align: left;
+    font-family: "Verdana", "sans-serif";
+}
+
+.DateImg{
+    position: absolute;
+    right: 82%;
+    top: 137%;
+}
+
+.VaccineType{
+    width: 90%;
+    color: rgb(78, 71, 71);
+    position: absolute;
+    top: 140%;
+    left: 76%;
+    transform: translate(-50%,-50%);
+    text-align: left;
+    font-family: "Verdana", "sans-serif";
+}
+
+.VaccineTypeImg{
+    position: absolute;
+    right: 69%;
+    top: 137%;
+}
+
+.AllVaccinesImg{
+    width: 80%;
+    position: absolute;
+    right: 20%;
+    top: 160%;
+}
+
+.text-box2{
+    width: 90%;
+    color: rgb(33, 47, 177);
+    position: absolute;
+    top: 190%;
+    left: 55%;
+    transform: translate(-50%,-50%);
+    text-align: left;
+    font-family: "Verdana", "sans-serif";
+}
+
+.text-box3{
+    width: 90%;
+    color: gray;
+    position: absolute;
+    top: 200%;
+    left: 55%;
+    transform: translate(-50%,-50%);
+    text-align: left;
+    font-family: "Verdana", "sans-serif";
+}
+
+.row{
+    position: absolute;
+    top: 210%;
+    left: 2%;
+    margin-top: 5%;
+    display: flex;
+    justify-content: space-between;
+    font-family: "Verdana", "sans-serif";
+}
+
+.benefits-col{
+    flex-basis: 31%;
+    background: #fff3f3;
+    border-radius: 10px;
+    margin-bottom: 5%;
+    padding: 20px 12px;
+    box-sizing: border-box;
+    transition: 0.5;
+ }
+
+ h1{
+    position: absolute;
+    top: 210%;
+    left: 45%;
+    font-family: "Verdana", "sans-serif";
+ }
+
+ h3{
+    text-align: center;
+    font-weight: 600;
+    margin: 10px 0;
+    font-family: "Verdana", "sans-serif";
+}
+
+.benefits-col:hover{
+    box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.2);
+}
+
+.PersonMaskImg{
+    position: absolute;
+    left: 2%;
+    top: 250%;
+}
+
+.text-box4{
+    width: 90%;
+    color: rgb(33, 47, 177);
+    position: absolute;
+    top: 250%;
+    left: 65%;
+    transform: translate(-50%,-50%);
+    text-align: left;
+    font-family: "Verdana", "sans-serif";
+}
+
+.text-box5{
+    width: 90%;
+    color: gray;
+    position: absolute;
+    top: 263%;
+    left: 106%;
+    transform: translate(-50%,-50%);
+    text-align: left;
+    font-family: "Verdana", "sans-serif";
+}
+
+.text-box6{
+    width: 90%;
+    color: gray;
+    position: absolute;
+    top: 273%;
+    left: 106%;
+    transform: translate(-50%,-50%);
+    text-align: left;
+    font-family: "Verdana", "sans-serif";
+}
+
+.text-box7{
+    width: 90%;
+    color: gray;
+    position: absolute;
+    top: 278%;
+    left: 106%;
+    transform: translate(-50%,-50%);
+    text-align: left;
+    font-family: "Verdana", "sans-serif";
+}
+
+.text-box8{
+    width: 90%;
+    color: gray;
+    position: absolute;
+    top: 283%;
+    left: 106%;
+    transform: translate(-50%,-50%);
+    text-align: left;
+    font-family: "Verdana", "sans-serif";
+}
+
+.text-box9{
+    width: 90%;
+    color: gray;
+    position: absolute;
+    top: 288%;
+    left: 106%;
+    transform: translate(-50%,-50%);
+    text-align: left;
+    font-family: "Verdana", "sans-serif";
+}
+
+.text-box10{
+    width: 90%;
+    color: gray;
+    position: absolute;
+    top: 293%;
+    left: 106%;
+    transform: translate(-50%,-50%);
+    text-align: left;
+    font-family: "Verdana", "sans-serif";
+}
+
+.text-box11{
+    width: 90%;
+    color: rgb(33, 47, 177);
+    position: absolute;
+    top: 320%;
+    left: 20%;
+    transform: translate(-50%,-50%);
+    text-align: left;
+    font-family: "Verdana", "sans-serif";
+}
+
+.DrPhoneImg{
+    position: absolute;
+    left: 45%;
+    top: 320%;
+}
+
+.text-box12{
+    width: 90%;
+    color: gray;
+    position: absolute;
+    top: 335%;
+    left: 53%;
+    transform: translate(-50%,-50%);
+    text-align: left;
+    font-family: "Verdana", "sans-serif";
+}
+
+.text-box13{
+    width: 90%;
+    color: gray;
+    position: absolute;
+    top: 355%;
+    left: 15%;
+    transform: translate(-50%,-50%);
+    text-align: left;
+    font-family: "Verdana", "sans-serif";
+}
+
+.text-box14{
+    width: 90%;
+    color: gray;
+    position: absolute;
+    top: 358%;
+    left: 59%;
+    transform: translate(-50%,-50%);
+    text-align: left;
+    font-family: "Verdana", "sans-serif";
+}
+
+.text-box15{
+    width: 90%;
+    color: gray;
+    position: absolute;
+    top: 355%;
+    left: 31%;
+    transform: translate(-50%,-50%);
+    text-align: left;
+    font-family: "Verdana", "sans-serif";
+}
+
+.text-box16{
+    width: 90%;
+    color: gray;
+    position: absolute;
+    top: 358%;
+    left: 75%;
+    transform: translate(-50%,-50%);
+    text-align: left;
+    font-family: "Verdana", "sans-serif";
+}
+
+.text-box17{
+    width: 90%;
+    color: gray;
+    position: absolute;
+    top: 375%;
+    left: 17%;
+    transform: translate(-50%,-50%);
+    text-align: left;
+    font-family: "Verdana", "sans-serif";
+}
+
+.text-box18{
+    width: 90%;
+    color: gray;
+    position: absolute;
+    top: 378%;
+    left: 59%;
+    transform: translate(-50%,-50%);
+    text-align: left;
+    font-family: "Verdana", "sans-serif";
+}
+
+.text-box19{
+    width: 90%;
+    color: gray;
+    position: absolute;
+    top: 375%;
+    left: 33%;
+    transform: translate(-50%,-50%);
+    text-align: left;
+    font-family: "Verdana", "sans-serif";
+}
+
+.text-box20{
+    width: 90%;
+    color: gray;
+    position: absolute;
+    top: 378%;
+    left: 75%;
+    transform: translate(-50%,-50%);
+    text-align: left;
+    font-family: "Verdana", "sans-serif";
+}
+
+.buttonCall{
+    width: 90%;
+    color: gray;
+    position: absolute;
+    top: 365%;
+    left: 60%;
+    transform: translate(-50%,-50%);
+    text-align: left;
+    font-family: "Verdana", "sans-serif";
+}
+
+.buttonChat{
+    width: 90%;
+    color: gray;
+    position: absolute;
+    top: 365%;
+    left: 75%;
+    transform: translate(-50%,-50%);
+    text-align: left;
+    font-family: "Verdana", "sans-serif";
+}
+
+.buttonVideo{
+    width: 90%;
+    color: gray;
+    position: absolute;
+    top: 385%;
+    left: 60%;
+    transform: translate(-50%,-50%);
+    text-align: left;
+    font-family: "Verdana", "sans-serif";
+}
+
+.buttonMessage{
+    width: 90%;
+    color: gray;
+    position: absolute;
+    top: 385%;
+    left: 75%;
+    transform: translate(-50%,-50%);
+    text-align: left;
+    font-family: "Verdana", "sans-serif";
+}
+
+.text-box21{
+    width: 90%;
+    color: rgb(33, 47, 177);
+    position: absolute;
+    top: 415%;
+    left: 20%;
+    transform: translate(-50%,-50%);
+    text-align: left;
+    font-family: "Verdana", "sans-serif";
+}
+
+.text-box22{
+    width: 90%;
+    color: gray;
+    position: absolute;
+    top: 427%;
+    left: 61%;
+    transform: translate(-50%,-50%);
+    text-align: left;
+    font-family: "Verdana", "sans-serif";
+}
+
+.text-box23{
+    width: 90%;
+    color: rgb(33, 47, 177);
+    position: absolute;
+    top: 415%;
+    left: 60%;
+    transform: translate(-50%,-50%);
+    text-align: left;
+    font-family: "Verdana", "sans-serif";
+}
+
+.text-box24{
+    width: 90%;
+    color: rgb(33, 47, 177);
+    position: absolute;
+    top: 415%;
+    left: 73%;
+    transform: translate(-50%,-50%);
+    text-align: left;
+    font-family: "Verdana", "sans-serif";
+}
+
+.text-box25{
+    width: 90%;
+    color: rgb(33, 47, 177);
+    position: absolute;
+    top: 415%;
+    left: 90%;
+    transform: translate(-50%,-50%);
+    text-align: left;
+    font-family: "Verdana", "sans-serif";
+}
+
+.text-box26{
+    width: 90%;
+    color: gray;
+    position: absolute;
+    top: 425%;
+    left: 101%;
+    transform: translate(-50%,-50%);
+    text-align: left;
+    font-family: "Verdana", "sans-serif";
+}
+
+.text-box27{
+    width: 90%;
+    color: gray;
+    position: absolute;
+    top: 435%;
+    left: 101%;
+    transform: translate(-50%,-50%);
+    text-align: left;
+    font-family: "Verdana", "sans-serif";
+}
+
+.text-box28{
+    width: 90%;
+    color: gray;
+    position: absolute;
+    top: 445%;
+    left: 101%;
+    transform: translate(-50%,-50%);
+    text-align: left;
+    font-family: "Verdana", "sans-serif";
+}
+
+.text-box29{
+    width: 90%;
+    color: gray;
+    position: absolute;
+    top: 425%;
+    left: 114%;
+    transform: translate(-50%,-50%);
+    text-align: left;
+    font-family: "Verdana", "sans-serif";
+}
+
+.text-box30{
+    width: 90%;
+    color: gray;
+    position: absolute;
+    top: 435%;
+    left: 114%;
+    transform: translate(-50%,-50%);
+    text-align: left;
+    font-family: "Verdana", "sans-serif";
+}
+
+.text-box31{
+    width: 90%;
+    color: gray;
+    position: absolute;
+    top: 445%;
+    left: 114%;
+    transform: translate(-50%,-50%);
+    text-align: left;
+    font-family: "Verdana", "sans-serif";
+}
+
+.text-box32{
+    width: 90%;
+    color: gray;
+    position: absolute;
+    top: 425%;
+    left: 131%;
+    transform: translate(-50%,-50%);
+    text-align: left;
+    font-family: "Verdana", "sans-serif";
+}
+
+.text-box33{
+    width: 90%;
+    color: gray;
+    position: absolute;
+    top: 435%;
+    left: 131%;
+    transform: translate(-50%,-50%);
+    text-align: left;
+    font-family: "Verdana", "sans-serif";
+}
+
+.text-box34{
+    width: 90%;
+    color: gray;
+    position: absolute;
+    top: 445%;
+    left: 131%;
+    transform: translate(-50%,-50%);
+    text-align: left;
+    font-family: "Verdana", "sans-serif";
+}
+
+.text-box35{
+    width: 90%;
+    color: gray;
+    position: absolute;
+    top: 465%;
+    left: 60%;
+    transform: translate(-50%,-50%);
+    text-align: left;
+    font-family: "Verdana", "sans-serif";
+}
+
+.text-box36{
+    width: 90%;
+    color: gray;
+    position: absolute;
+    top: 465%;
+    left: 115%;
+    transform: translate(-50%,-50%);
+    text-align: left;
+    font-family: "Verdana", "sans-serif";
+}
+
+.text-box37{
+    width: 90%;
+    color: gray;
+    position: absolute;
+    top: 465%;
+    left: 130%;
+    transform: translate(-50%,-50%);
+    text-align: left;
+    font-family: "Verdana", "sans-serif";
+}
